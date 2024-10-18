@@ -1,0 +1,54 @@
+{
+  "name": "textline-sorter",
+  "version": "1.0.0",
+  "description": "A flexible utility for sorting lines of text.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && tsc --project tsconfig.json && tsc --project tsconfig.cjs.json",
+    "prettier-check": "prettier --check .",
+    "prettier-write": "prettier --write .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonh1701/textline-sorter.git"
+  },
+  "keywords": [
+    "sort",
+    "sorter",
+    "sorting",
+    "javascript",
+    "typescript",
+    "esm",
+    "cjs",
+    "nodejs",
+    "commonjs",
+    "ecmascript"
+  ],
+  "author": "Simon Hohenwarter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonh1701/textline-sorter/issues"
+  },
+  "homepage": "https://github.com/simonh1701/textline-sorter#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/jest": "^29.5.13",
+    "@typescript-eslint/eslint-plugin": "^8.8.1",
+    "@typescript-eslint/parser": "^8.8.1",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.10.0",
+    "jest": "^29.7.0",
+    "prettier": "3.3.3",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.8.1"
+  }
+}
