@@ -96,7 +96,7 @@ Thor
 Wolverine
 ```
 
-For more examples, please refer to [/docs/USAGE.md](/docs/USAGE.md).
+For more examples, please refer to [/docs/USAGE.md](https://github.com/simonh1701/textline-sorter/blob/main/docs/USAGE.md).
 
 ## License
 
