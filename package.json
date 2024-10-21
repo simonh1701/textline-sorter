@@ -1,6 +1,6 @@
 {
   "name": "textline-sorter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A flexible utility for sorting lines of text.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
