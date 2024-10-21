@@ -1,3 +1,3 @@
-import { sortLines } from "./sortLines";
+import { sortLines, SortOptions, SortOrder } from "./sortLines";
 
-export { sortLines };
+export { sortLines, SortOptions, SortOrder };
